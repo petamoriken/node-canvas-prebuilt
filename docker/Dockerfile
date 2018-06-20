@@ -19,4 +19,4 @@ RUN ldconfig
 RUN bash -c 'cd; curl -O https://www.freedesktop.org/software/fontconfig/release/fontconfig-2.12.4.tar.bz2; tar -xvf fontconfig-2.12.4.tar.bz2; cd fontconfig-2.12.4; ./configure --enable-static --sysconfdir=/etc --localstatedir=/var; make; make install'
 RUN bash -c 'cd; curl -O https://www.cairographics.org/releases/pixman-0.34.0.tar.gz; tar -xvf pixman-0.34.0.tar.gz; cd pixman-0.34.0; ./configure; make; make install'
 RUN bash -c 'cd; curl -O https://www.cairographics.org/releases/cairo-1.14.10.tar.xz; tar -xvf cairo-1.14.10.tar.xz; cd cairo-1.14.10; ./configure; make; make install'
-RUN bash -c 'cd; curl -O http://ftp.gnome.org/pub/GNOME/sources/pango/1.40/pango-1.40.7.tar.xz; tar -xvf pango-1.40.7.tar.xz; cd pango-1.40.7; ./configure; make; make install'
+RUN bash -c 'cd; curl -O http://ftp.gnome.org/pub/GNOME/sources/pango/1.42/pango-1.42.1.tar.xz; tar -xvf pango-1.42.1.tar.xz; cd pango-1.42.1; ./configure; make; make install'
