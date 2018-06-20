@@ -1,27 +1,10 @@
-1.6.5 / 2017-03-18
+Unreleased / patch
 ==================
 
- * Parse font using parse-css-font and units-css (#891)
-
-1.6.4 / 2017-02-26
-==================
-
- * Make sure Canvas#toDataURL is always async if a callback is passed in (#874)
-
-1.6.3 / 2017-02-14
-==================
-
- * Fix isnan() and isinf() on Clang (#864)
-
-1.6.2 / 2016-10-30
-==================
-
- * Fix deprecation warnings (#835)
-
-1.6.1 / 2016-10-23
-==================
-
- * Convert has_lib.sh to sh so it also works on BSD OSes (#820)
+ * Port has_lib.sh to javascript (#872)
+ * Support canvas.getContext("2d", {alpha: boolean}) and
+   canvas.getContext("2d", {pixelFormat: "..."})
+ * Support indexed PNG encoding.
 
 1.6.0 / 2016-10-16
 ==================
